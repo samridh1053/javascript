@@ -4,13 +4,13 @@
 
 //    console.log('start')
 
-//    setTimeout(() =>{
-//        console.log('setTimeout')
-//    })
-//    Promise.resolve().then(() =>{
-//        console.log('resolve')
-//    })
-//    console.log('end')
+    setTimeout(() =>{
+        console.log('setTimeout')
+    })
+    Promise.resolve().then(() =>{
+        console.log('resolve')
+    })
+    console.log('end')
 
 // #2
 /*
@@ -58,8 +58,9 @@ let promise = new Promise(function (resolve, reject) {
 */
 
 // #6
-
+/*
 const promise = new Promise((resolve, reject) => {
     reject(Error('Some error occurred'));
   })
   promise.catch(error => console.log(error.message));
+  */
