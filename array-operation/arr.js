@@ -23,9 +23,31 @@ console.log(removedElement)
 */
 
 //         push function             //
+/*
 let myArray = [1, 2, 3];
 myArray.push(4);
 console.log(myArray);
+*/
+
+
+//               ES6      //
+
+const person = { firstName: "Samridh", lastName: "Gupta" };
+
+const { firstName, lastName } = person;
+console.log(firstName, lastName);
+
+
+// Regular function
+function regularFunction(x) {
+  return x * 2;
+}
+
+// Arrow function
+const arrowFunction = x => x * 2;
+
+console.log(regularFunction(5));   
+console.log(arrowFunction(5)); 
 
 
 
