@@ -31,12 +31,12 @@ console.log(output);
 
 //             Filter 
 //Print odd number
-/*
+
 const arr = [7, 1, 9, 4, 8]
 
 const output = arr.filter((x)=> x %2);
 console.log(output);
-*/
+
 
 
 // print even number
@@ -55,7 +55,7 @@ console.log(output);
 
 
 //                    REDUCE           //
-
+/*
 const arr = [7, 1, 9, 4, 8];
 
 const output = arr.reduce(function(acc, curr) {
@@ -65,4 +65,4 @@ const output = arr.reduce(function(acc, curr) {
     return acc;
 }, 0);
 console.log(output);
-
+*/

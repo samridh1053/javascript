@@ -21,7 +21,7 @@ function shadowingExample() {
       console.log(outerVariable);
     }
   
-    inner(); // Outputs: "I am from the outer function"
+    inner(); 
   }
   
   lexicalVisibility();
